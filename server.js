@@ -4,6 +4,7 @@ import cors from 'cors';
 import { connect, Schema, model } from 'mongoose';
 import dotenv from 'dotenv';
 
+
 dotenv.config();
 
 const app = express();
